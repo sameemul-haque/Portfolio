@@ -55,7 +55,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 													{
 														type: ListActionType.LINK,
 														href: project.homepage,
-														icon: 'feather:home',
+														icon: 'feather:link',
 														label: `${project.name} homepage`,
 													} as ListAction,
 											  ]
