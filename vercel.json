@@ -1,0 +1,20 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"version": 2,
+	"alias": "sameemul-haque.vercel.app",
+	"cleanUrls": true,
+	"public": true,
+	"regions": ["bom1"],
+	"redirects": [
+		{ "source": "/cv", "destination": "https://drive.google.com/file/d/1_xn33U0VfmW2oD9iyBH1ki12SqkJ8Avr/" },
+		{ "source": "/github", "destination": "https://github.com/sameemul-haque" },
+		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/sameemul-haque" },
+		{ "source": "/portfolio", "destination": "/projects" },
+		{ "source": "/resume", "destination": "https://drive.google.com/file/d/1_xn33U0VfmW2oD9iyBH1ki12SqkJ8Avr/" },
+		{ "source": "/twitter", "destination": "https://twitter.com/sameemul-haque" },
+		{
+			"source": "/contact",
+			"destination": "https://www.linkedin.com/in/sameemul-haque"
+		}
+	]
+}
