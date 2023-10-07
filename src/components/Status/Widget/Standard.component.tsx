@@ -42,27 +42,27 @@ export function Widget(): JSX.Element {
 				url: `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}.webp?size=256`,
 			},
 			title: status.discord_user.username,
-			description: `#${status.discord_user.discriminator}`,
+			description: `discord`,
 			icon: <Status.Indicator color={color} pulse={status.discord_status !== 'offline'} />,
 		},
 
-		/**
-		 * Spotify
-		 */
-		...(status.spotify && status.listening_to_spotify
-			? [
-					{
-						avatar: {
-							alt: `${status.spotify.song} - ${status.spotify.artist}`,
-							href: `https://open.spotify.com/track/${status.spotify.track_id}`,
-							url: status.spotify.album_art_url,
-						},
-						title: status.spotify.song,
-						description: status.spotify.artist,
-						icon: 'feather:music',
-					},
-			  ]
-			: []),
+		// /**
+		//  * Spotify
+		//  */
+		// ...(status.spotify && status.listening_to_spotify
+		// 	? [
+		// 			{
+		// 				avatar: {
+		// 					alt: `${status.spotify.song} - ${status.spotify.artist}`,
+		// 					href: `https://open.spotify.com/track/${status.spotify.track_id}`,
+		// 					url: status.spotify.album_art_url,
+		// 				},
+		// 				title: status.spotify.song,
+		// 				description: status.spotify.artist,
+		// 				icon: 'feather:music',
+		// 			},
+		// 	  ]
+		// 	: []),
 
 		/**
 		 * All other activities

@@ -1,5 +1,5 @@
 ---
-banner_alt: A photo of a forest overlooking the bright white sky in the background
+banner_alt: A photo of nemo file explorer
 banner: https://github.com/sameemul-haque/sameemul-haque/assets/110324374/ab309d20-977f-42ea-8bdc-0ce718038596
 title_prefix: About
 title: Nemo, my favourite file manager
@@ -23,7 +23,7 @@ xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 ```
 
-Install the Nemo file roller—the file archiver extension for Nemo. Installing this helps extract and compress files.
+-   Install the Nemo file roller—the file archiver extension for Nemo. Installing this helps extract and compress files.
 
 ```
 pacman -S nemo-fileroller
@@ -47,3 +47,4 @@ gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-Mocha-Standard-Bl
 -   You can disable the menubar from the top file options -> View -> Menubar (you have to press Alt to show it after disabling it).
 -   You can disable or enable the side bar by pressing F9.
 -   You can customize your toolbar from preferences options, Edit -> Preferences -> Toolbar
+-   [Reference](https://wiki.archlinux.org/title/Nemo)
