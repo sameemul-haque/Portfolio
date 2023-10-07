@@ -1,6 +1,6 @@
 ---
 banner_alt: dotfiles, .config
-banner: https://github.com/sameemul-haque/dotfiles/assets/110324374/0250fcdc-dd46-4e53-9855-6630b02950fe
+banner: https://github.com/sameemul-haque/Portfolio/assets/110324374/38b854ea-85f4-4d17-ac7f-506f9ab57652
 title_prefix: Guide
 title: Dotfiles
 description: How do I manage my dotfiles using the bare git repository?

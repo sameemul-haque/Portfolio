@@ -28,6 +28,7 @@ const config = {
 			// GitHub
 			'github.com',
 			'repository-images.githubusercontent.com',
+			'github-production-user-asset-6210df.s3.amazonaws.com',
 
 			// Spotify Album Art
 			'i.scdn.co',
