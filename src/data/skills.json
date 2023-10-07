@@ -1,44 +1,51 @@
 [
 	{
-		"title": "React",
-		"icon": "logos:react",
-		"link": {
-			"url": "https://react.dev/"
-		}
-	},
-	{
 		"title": "JavaScript",
-		"icon": "logos:javascript",
+		"icon": "devicon:javascript",
 		"link": {
 			"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 		}
 	},
 	{
+		"title": "React",
+		"icon": "devicon:react",
+		"link": {
+			"url": "https://react.dev/"
+		}
+	},
+	{
+		"title": "Vue.js",
+		"icon": "devicon:vuejs",
+		"link": {
+			"url": "https://vuejs.org/"
+		}
+	},
+	{
+		"title": "Node.js",
+		"icon": "devicon:nodejs",
+		"link": {
+			"url": "https://nodejs.org/"
+		}
+	},
+	{
 		"title": "HTML",
-		"icon": "logos:html-5",
+		"icon": "devicon:html5",
 		"link": {
 			"url": "https://html.spec.whatwg.org/multipage/"
 		}
 	},
 	{
 		"title": "CSS",
-		"icon": "logos:css-3",
+		"icon": "devicon:css3",
 		"link": {
 			"url": "https://www.w3.org/TR/CSS/#css"
 		}
 	},
 	{
 		"title": "Bootstrap",
-		"icon": "logos:bootstrap",
+		"icon": "devicon:bootstrap",
 		"link": {
 			"url": "https://getbootstrap.com/"
-		}
-	},
-	{
-		"title": "Node JS",
-		"icon": "devicon:nodejs",
-		"link": {
-			"url": "https://nodejs.org/"
 		}
 	},
 	{
@@ -56,6 +63,13 @@
 		}
 	},
 	{
+		"title": "Python",
+		"icon": "devicon:python",
+		"link": {
+			"url": "https://python.org/"
+		}
+	},
+	{
 		"title": "C",
 		"icon": "devicon:c",
 		"link": {
@@ -64,21 +78,49 @@
 	},
 	{
 		"title": "Java",
-		"icon": "logos:java",
+		"icon": "devicon:java",
 		"link": {
 			"url": "https://java.com/"
 		}
 	},
 	{
-		"title": "Python",
-		"icon": "logos:python",
+		"title": "Bash",
+		"icon": "devicon-plain:bash",
 		"link": {
-			"url": "https://python.org/"
+			"url": "https://www.gnu.org/software/bash/"
+		}
+	},
+	{
+		"title": "Vim",
+		"icon": "devicon:vim",
+		"link": {
+			"url": "https://github.com/vim/vim"
+		}
+	},
+	{
+		"title": "Powershell",
+		"icon": "devicon:powershell",
+		"link": {
+			"url": "https://learn.microsoft.com/en-us/powershell/"
+		}
+	},
+	{
+		"title": "Markdown",
+		"icon": "mdi:language-markdown",
+		"link": {
+			"url": "https://www.markdownguide.org/"
+		}
+	},
+	{
+		"title": "Latex",
+		"icon": "file-icons:latex",
+		"link": {
+			"url": "https://www.latex-project.org/help/documentation/"
 		}
 	},
 	{
 		"title": "Git",
-		"icon": "logos:git-icon",
+		"icon": "devicon:git",
 		"link": {
 			"url": "https://git-scm.com/"
 		}
@@ -87,7 +129,28 @@
 		"title": "Github",
 		"icon": "mdi:github",
 		"link": {
-			"url": "https://github.com/"
+			"url": "https://docs.github.com/"
+		}
+	},
+	{
+		"title": "VS Code",
+		"icon": "devicon:vscode",
+		"link": {
+			"url": "https://code.visualstudio.com/docs/"
+		}
+	},
+	{
+		"title": "Firebase",
+		"icon": "logos:firebase",
+		"link": {
+			"url": "https://firebase.google.com/docs/"
+		}
+	},
+	{
+		"title": "Vercel",
+		"icon": "gg:vercel",
+		"link": {
+			"url": "https://vercel.com/docs"
 		}
 	},
 	{
@@ -98,17 +161,10 @@
 		}
 	},
 	{
-		"title": "Firebase",
-		"icon": "logos:firebase",
+		"title": "Linux",
+		"icon": "devicon:linux",
 		"link": {
-			"url": "https://firebase.google.com/"
-		}
-	},
-	{
-		"title": "VS Code",
-		"icon": "devicon:vscode",
-		"link": {
-			"url": "https://code.visualstudio.com/"
+			"url": "https://github.com/torvalds/linux"
 		}
 	}
 ]

@@ -21,12 +21,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Blog',
 			href: '/blog',
 		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'line-md:clipboard-check',
-		// 	text: 'Skills',
-		// 	href: '/skills',
-		// },
+		{
+			type: NavigationItemType.LINK,
+			icon: 'line-md:clipboard-check',
+			text: 'Skills',
+			href: '/skills',
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'line-md:text-box-multiple',

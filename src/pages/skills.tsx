@@ -29,7 +29,7 @@ export default function SkillsPage({ skills: rawSkills }: SkillsProps): JSX.Elem
   return (
     <Layout.Default seo={{ title: 'Skills' }}>
       <div className="flex flex-grow  pt-16 pb-12">
-        <div className="flex-grow grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex-grow grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {skills.map((event, index) => (
           <Animate
 								animation={{ y: [50, 0], opacity: [0, 1] }}
