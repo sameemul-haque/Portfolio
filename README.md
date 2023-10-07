@@ -7,6 +7,4 @@
 -   Build Command: `npm run build` or `yarn build`
 -   Deploy using [vercel](https://vercel.com)
 
-## 📄 License
-
-MIT © [Ben Dixon, Sameemul Haque](https://github.com/sameemul-haque/portfolio/blob/main/LICENSE)
+## 📄 [License](https://github.com/sameemul-haque/portfolio/blob/main/LICENSE)

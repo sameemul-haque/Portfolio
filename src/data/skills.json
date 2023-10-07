@@ -1,0 +1,114 @@
+[
+	{
+		"title": "React",
+		"icon": "logos:react",
+		"link": {
+			"url": "https://react.dev/"
+		}
+	},
+	{
+		"title": "JavaScript",
+		"icon": "logos:javascript",
+		"link": {
+			"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+		}
+	},
+	{
+		"title": "HTML",
+		"icon": "logos:html-5",
+		"link": {
+			"url": "https://html.spec.whatwg.org/multipage/"
+		}
+	},
+	{
+		"title": "CSS",
+		"icon": "logos:css-3",
+		"link": {
+			"url": "https://www.w3.org/TR/CSS/#css"
+		}
+	},
+	{
+		"title": "Bootstrap",
+		"icon": "logos:bootstrap",
+		"link": {
+			"url": "https://getbootstrap.com/"
+		}
+	},
+	{
+		"title": "Node JS",
+		"icon": "devicon:nodejs",
+		"link": {
+			"url": "https://nodejs.org/"
+		}
+	},
+	{
+		"title": "PHP",
+		"icon": "devicon:php",
+		"link": {
+			"url": "https://www.php.net/docs.php"
+		}
+	},
+	{
+		"title": "MySQL",
+		"icon": "devicon:mysql",
+		"link": {
+			"url": "https://www.mysql.com/"
+		}
+	},
+	{
+		"title": "C",
+		"icon": "devicon:c",
+		"link": {
+			"url": "https://www.open-std.org/jtc1/sc22/wg14/"
+		}
+	},
+	{
+		"title": "Java",
+		"icon": "logos:java",
+		"link": {
+			"url": "https://java.com/"
+		}
+	},
+	{
+		"title": "Python",
+		"icon": "logos:python",
+		"link": {
+			"url": "https://python.org/"
+		}
+	},
+	{
+		"title": "Git",
+		"icon": "logos:git-icon",
+		"link": {
+			"url": "https://git-scm.com/"
+		}
+	},
+	{
+		"title": "Github",
+		"icon": "mdi:github",
+		"link": {
+			"url": "https://github.com/"
+		}
+	},
+	{
+		"title": "Figma",
+		"icon": "logos:figma",
+		"link": {
+			"url": "https://figma.com/"
+		}
+	},
+	{
+		"title": "Firebase",
+		"icon": "logos:firebase",
+		"link": {
+			"url": "https://firebase.google.com/"
+		}
+	},
+	{
+		"title": "VS Code",
+		"icon": "devicon:vscode",
+		"link": {
+			"url": "https://code.visualstudio.com/"
+		}
+	}
+]
