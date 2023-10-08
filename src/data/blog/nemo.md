@@ -7,7 +7,9 @@ description: Features and tips about the Nemo file manager.
 date: '2023-06-22'
 ---
 
-## :hammer: THINGS TO DO AFTER FRESH INSTALLATION
+[Nemo - File Manager](https://github.com/linuxmint/nemo)
+
+## :file_folder: Things to do after fresh installation
 
 ---
 
@@ -43,8 +45,33 @@ yay -S catppuccin-gtk-theme-mocha
 gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-Mocha-Standard-Blue-dark
 ```
 
--   Install lxappearance and change theme using that to change gtk theme for widgets as well.
+-   Install lxappearance, then change theme using that to change gtk theme for widgets as well.
 -   You can disable the menubar from the top file options -> View -> Menubar (you have to press Alt to show it after disabling it).
--   You can disable or enable the side bar by pressing F9.
--   You can customize your toolbar from preferences options, Edit -> Preferences -> Toolbar
--   [Reference](https://wiki.archlinux.org/title/Nemo)
+-   You can customize your toolbar from preferences options, Edit -> Preferences -> Toolbar.
+-   [Reference](https://wiki.archlinux.org/title/Nemo).
+
+## :keyboard: Keyboard Shortcuts
+
+---
+
+### Panes
+
+-   `F3`: Toggle Extra Pane (split view that shows two folder side by side).
+-   `F4`: Toggle Terminal in top pane (require the Nemo Terminal plugin).
+-   `F6`: Cycle focus between panes.
+-   `F9`: Toggle left pane (browsing folders only).
+-   `F8` + `Arrow keys`: Resize panes.
+
+### Tabs
+
+-   `Ctrl` + `T`: New tab in current pane.
+-   `Ctrl` + `Pg Up` or `Ctrl` + `Shift` + `Tab`: Previous tab.
+-   `Ctrl` + `Pg Down` or `Ctrl` + `Tab`: Next tab.
+-   `Ctrl` + `Shift` + `Pg Up` / `Pg Down`: Move tab left / right.
+-   `Ctrl` + `W`: Close current tab.
+
+### Folders
+
+-   `Alt` + `←`: Previous browsed directory.
+-   `Alt` + `→`: Next browsed dir.
+-   `Alt` + `↑`: Parent dir.

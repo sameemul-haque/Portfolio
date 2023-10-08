@@ -19,7 +19,7 @@ export function BlogLayout({ children, seo }: PropsWithChildren<BlogLayoutProps>
 		<>
 			<NextSeo {...seoProps} />
 			<Navbar.Standard />
-			<main className="flex flex-col justify-center sm:px-8">{children}</main>
+			<main className="flex flex-col min-h-screen justify-center sm:px-8">{children}</main>
 		</>
 	);
 }

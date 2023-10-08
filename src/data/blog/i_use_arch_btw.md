@@ -1,6 +1,6 @@
 ---
 banner_alt: Arch linux
-banner: https://github-production-user-asset-6210df.s3.amazonaws.com/110324374/273404560-27ae2bb6-e3b9-41b7-8a70-174b7d981228.svg
+banner: https://github.com/sameemul-haque/Portfolio/assets/110324374/d9374b42-4a42-4cd2-a170-1cc2eda4b591
 title_prefix: just for fun
 title: I use arch btw
 description: arch linux
