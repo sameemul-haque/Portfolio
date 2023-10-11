@@ -4,7 +4,7 @@ banner: https://github.com/sameemul-haque/sameemul-haque/assets/110324374/9d4d0e
 title_prefix: Guide
 title: Dotfiles
 description: How do I manage my dotfiles using the bare git repository?
-date: '2023-08-09'
+date: '2023-10-11'
 ---
 
 My dotfiles are available at my [`github`](https://github.com/sameemul-haque/dotfiles/).
