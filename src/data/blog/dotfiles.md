@@ -4,7 +4,7 @@ banner: https://github.com/sameemul-haque/sameemul-haque/assets/110324374/9d4d0e
 title_prefix: Guide
 title: Dotfiles
 description: How do I manage my dotfiles using the bare git repository?
-date: '2023-10-11'
+date: '2023-08-08'
 ---
 
 My dotfiles are available at my [`github`](https://github.com/sameemul-haque/dotfiles/).
@@ -19,7 +19,7 @@ Dotfiles empower users to customize their tools and applications according to th
 
 Sharing dotfiles has become a tradition among tech enthusiasts—an opportunity to exhibit configurations, shortcuts, and optimizations that boost productivity. By copying dotfiles, users can replicate a crafted setup on any machine, ensuring a consistent computing experience throughout.
 
-## :question: How to manage dotfiles?
+## :computer: How to manage dotfiles?
 
 ---
 
@@ -85,7 +85,7 @@ config checkout mocha
 config checkout dark
 ```
 
-### Mocha config
+### :sparkles: Mocha config
 
 These configuration files are available [`here`](https://github.com/sameemul-haque/dotfiles/tree/mocha).
 
@@ -94,7 +94,7 @@ These configuration files are available [`here`](https://github.com/sameemul-haq
 ![preview3](https://github.com/sameemul-haque/dotfiles/assets/110324374/4f7f18aa-4337-4f68-871b-42c3986c0379)
 ![preview4](https://github.com/sameemul-haque/dotfiles/assets/110324374/6614f84c-2bbe-42eb-83b4-a47d263fc9a3)
 
-### Dark config
+### :sparkles: Dark config
 
 These configuration files are available [`here`](https://github.com/sameemul-haque/dotfiles/tree/dark).
 

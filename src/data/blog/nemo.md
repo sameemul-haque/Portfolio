@@ -42,7 +42,7 @@ yay -S catppuccin-gtk-theme-mocha
 ```
 
 ```
-gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-Mocha-Standard-Blue-dark
+gsettings set org.gnome.desktop.interface gtk-theme Catppuccin-Mocha-Standard-Blue-Dark
 ```
 
 -   Install lxappearance, then change theme using that to change gtk theme for widgets as well.

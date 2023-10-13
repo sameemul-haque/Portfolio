@@ -14,10 +14,10 @@
 		}
 	},
 	{
-		"title": "Vue.js",
-		"icon": "devicon:vuejs",
+		"title": "Next.js",
+		"icon": "file-icons:nextjs",
 		"link": {
-			"url": "https://vuejs.org/"
+			"url": "https://nextjs.org/"
 		}
 	},
 	{
