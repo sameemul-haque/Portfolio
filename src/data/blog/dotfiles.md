@@ -9,17 +9,17 @@ date: '2023-08-08'
 
 My dotfiles are available at my [`github`](https://github.com/sameemul-haque/dotfiles/).
 
-## :question: What is a dotfile?
+## :thinking_face: What is a dotfile?
 
 ---
 
-Dotfiles, those files starting with a dot in their names, hold the secret to personalizing and refining your Unix-like system. These configuration files, like `.bashrc` or `.vimrc`, represent the identity of your customized computing environment.
+Dotfiles, those files starting with a dot in their names, hold the secret to personalizing and refining your system. These configuration files, like `.bashrc` or `.vimrc`, represent the identity of your customized computing environment.
 
 Dotfiles empower users to customize their tools and applications according to their preferences. Whether it's adjusting the appearance of the command prompt, enhancing the capabilities of a text editor, or tuning version control settings, dotfiles provide a platform for modifications.
 
 Sharing dotfiles has become a tradition among tech enthusiasts—an opportunity to exhibit configurations, shortcuts, and optimizations that boost productivity. By copying dotfiles, users can replicate a crafted setup on any machine, ensuring a consistent computing experience throughout.
 
-## :computer: How to manage dotfiles?
+## :question: How to manage dotfiles?
 
 ---
 
