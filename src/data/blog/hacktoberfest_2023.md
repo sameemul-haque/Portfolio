@@ -1,8 +1,8 @@
 ---
 banner_alt: Hacktoberfest 2023
 banner: https://github.com/sameemul-haque/Portfolio/assets/110324374/565426bc-8be1-4720-a0ee-861bd967c49f
-title_prefix: Hacktoberfest
-title: 'Hacktoberfest 2023: A Recap of My Achievements'
+title_prefix: A Recap
+title: 'Hacktoberfest 2023'
 description: Reflecting on completing the Hacktoberfest 2023 challenges and unlocking rewards.
 date: '2023-11-01'
 ---
