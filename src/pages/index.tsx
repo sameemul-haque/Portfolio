@@ -64,16 +64,16 @@ export default function HomePage(): JSX.Element {
 			<div className="min-h-screen flex items-center justify-center py-12">
 				<div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
 					<Animate
-							as="h1"
-							animation={{
-								opacity: [0, 1],
-								scale: [0.75, 1],
-							}}
-							className="text-gray-800 dark:text-white text-2xl sm:text-3xl md:text-5xl lg:text-7xl tracking-tight font-extrabold  backdrop-filter backdrop-blur-sm saturate-200 ">
-							Hey <span className="inline-block origin-70 animate-wave">👋</span> I&apos;m
-							<br />
-							Sameemul Haque
-							<br />a <Pill.Standard className="mt-4">developer</Pill.Standard>
+						as="h1"
+						animation={{
+							opacity: [0, 1],
+							scale: [0.75, 1],
+						}}
+						className="text-gray-800 dark:text-white text-2xl sm:text-3xl md:text-5xl lg:text-7xl tracking-tight font-extrabold  backdrop-filter backdrop-blur-sm saturate-200 ">
+						Hey <span className="inline-block origin-70 animate-wave">👋</span> I&apos;m
+						<br />
+						Sameemul Haque
+						<br />a <Pill.Standard className="mt-4">developer</Pill.Standard>
 					</Animate>
 
 					<Animate
