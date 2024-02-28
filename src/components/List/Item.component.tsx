@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 import { Icon } from '@iconify/react';
-
+import Image from 'next/image';
 import { Action } from './Action.component';
 import { ListActionType } from '~/types';
 
@@ -15,6 +15,7 @@ interface ItemProps extends WithChildren {
 	icon?: string | ReactNode;
 	iconColor?: string;
 	title: string;
+	previewurl: string;
 }
 
 export function Item({
@@ -22,6 +23,7 @@ export function Item({
 	children,
 	description,
 	icon,
+	previewurl,
 	iconColor,
 	title,
 }: ItemProps): JSX.Element {
@@ -44,7 +46,7 @@ export function Item({
 							</div>
 						) : (
 							<>{icon}</>
-						))}
+						))}{' '}
 					<div className="min-w-0 flex-1 px-4">
 						<h1 className="text-gray-700 dark:text-white text-lg font-bold">{title}</h1>
 						{description && (
@@ -101,7 +103,15 @@ export function Item({
 						})}
 					</div>
 				)}
-			</div>
+			</div>{' '}
+			{previewurl &&
+				(typeof previewurl === 'string' ? (
+					<div className={clsx('flex flex-col ')}>
+						<Image src={previewurl} width={720} height={500} alt={title} />
+					</div>
+				) : (
+					<>{previewurl}</>
+				))}
 			{children}
 		</li>
 	);

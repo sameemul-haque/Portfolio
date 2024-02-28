@@ -71,11 +71,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 										description={project.description}
 										icon={<span className="text-xl">{project.icon}</span>}
 										title={project.name}
-									/>
-									<img
-										src={project.imageurl}
-										alt={project.name}
-										style={{ width: '100%', height: 'auto' }}
+										previewurl={project.previewurl}
 									/>
 								</Animate>
 							);

@@ -114,7 +114,7 @@ export interface Project {
 	post?: string;
 	template?: boolean;
 	url: string;
-	imageurl: string;
+	previewurl: string;
 }
 
 export interface ProjectPost {
