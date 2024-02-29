@@ -32,48 +32,52 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 					<List.Container>
 						{projects.map((project, index) => {
 							return (
-								<Animate
-									animation={{ y: [50, 0], opacity: [0, 1] }}
-									key={index}
-									transition={{
-										delay: 0.1 * index,
-									}}>
-									<List.Item
-										actions={[
-											...(project.post
-												? [
-														{
-															type: ListActionType.LINK,
-															external: false,
-															href: project.post,
-															icon: 'feather:edit-3',
-															label: `Blog post about ${project.name}`,
-														} as ListAction,
-												  ]
-												: []),
-											...(project.homepage
-												? [
-														{
-															type: ListActionType.LINK,
-															href: project.homepage,
-															icon: 'feather:link',
-															label: `${project.name} homepage`,
-														} as ListAction,
-												  ]
-												: []),
-											{
-												type: ListActionType.LINK,
-												href: project.url,
-												icon: 'feather:github',
-												label: 'GitHub Repository',
-											},
-										]}
-										description={project.description}
-										icon={<span className="text-xl">{project.icon}</span>}
-										title={project.name}
-										previewurl={project.previewurl}
-									/>
-								</Animate>
+								<div
+									className="cursor-pointer"
+									onClick={() => window.open(project.url)}>
+									<Animate
+										animation={{ y: [50, 0], opacity: [0, 1] }}
+										key={index}
+										transition={{
+											delay: 0.1 * index,
+										}}>
+										<List.Item
+											actions={[
+												...(project.post
+													? [
+															{
+																type: ListActionType.LINK,
+																external: false,
+																href: project.post,
+																icon: 'feather:edit-3',
+																label: `Blog post about ${project.name}`,
+															} as ListAction,
+													  ]
+													: []),
+												...(project.homepage
+													? [
+															{
+																type: ListActionType.LINK,
+																href: project.homepage,
+																icon: 'feather:link',
+																label: `${project.name} homepage`,
+															} as ListAction,
+													  ]
+													: []),
+												{
+													type: ListActionType.LINK,
+													href: project.url,
+													icon: 'feather:github',
+													label: 'GitHub Repository',
+												},
+											]}
+											description={project.description}
+											icon={<span className="text-xl">{project.icon}</span>}
+											title={project.name}
+											previewurl={project.previewurl}
+										/>
+									</Animate>
+								</div>
 							);
 						})}
 					</List.Container>
