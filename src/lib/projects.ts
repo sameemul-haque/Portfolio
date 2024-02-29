@@ -71,6 +71,12 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 				post: repoPost ? `/blog/${repoPost.post}` : undefined,
 				template: false,
 				url: repo.html_url.toLowerCase(),
+				previewurl: repo.html_url
+					.toLowerCase()
+					.split('/')
+					.map((part, index) => (index === 2 ? 'raw.githubusercontent.com' : part))
+					.concat('preview', 'preview.png')
+					.join('/'),
 			} as Project;
 		})
 		.filter((project) => project !== null);
