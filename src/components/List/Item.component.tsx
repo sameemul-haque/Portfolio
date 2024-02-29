@@ -29,6 +29,20 @@ export function Item({
 }: ItemProps): JSX.Element {
 	return (
 		<li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300">
+			{previewurl &&
+				(typeof previewurl === 'string' ? (
+					<div className={clsx('flex flex-col m-0.5 text-center')}>
+						<Image
+							src={previewurl}
+							width={775}
+							height={436}
+							className="rounded-t-lg"
+							alt={title}
+						/>
+					</div>
+				) : (
+					<>{previewurl}</>
+				))}
 			<div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
 				<div className="flex flex-1 items-center justify-start w-full">
 					{icon &&
@@ -103,15 +117,7 @@ export function Item({
 						})}
 					</div>
 				)}
-			</div>{' '}
-			{previewurl &&
-				(typeof previewurl === 'string' ? (
-					<div className={clsx('flex flex-col ')}>
-						<Image src={previewurl} width={720} height={500} alt={title} />
-					</div>
-				) : (
-					<>{previewurl}</>
-				))}
+			</div>
 			{children}
 		</li>
 	);
