@@ -34,7 +34,8 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 							return (
 								<div
 									className="cursor-pointer"
-									onClick={() => window.open(project.url)}>
+									onClick={() => window.open(project.url)}
+									key={index}>
 									<Animate
 										animation={{ y: [50, 0], opacity: [0, 1] }}
 										key={index}
