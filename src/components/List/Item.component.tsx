@@ -31,7 +31,10 @@ export function Item({
 		<li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300">
 			{previewurl &&
 				(typeof previewurl === 'string' ? (
-					<div className={clsx('flex flex-col m-0.5 text-center')}>
+					<div
+						className={clsx(
+							'flex flex-col m-0.5 text-center  bg-gray-100 dark:bg-gray-800',
+						)}>
 						<Image
 							src={previewurl}
 							width={775}
