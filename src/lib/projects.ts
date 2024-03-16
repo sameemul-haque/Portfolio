@@ -77,9 +77,11 @@ export async function fetchProjects(): Promise<Array<Project> | null> {
 					.map((part, index) => (index === 2 ? 'raw.githubusercontent.com' : part))
 					.concat('preview', 'preview.png')
 					.join('/'),
+				created_at: repo.created_at,
 			} as Project;
 		})
 		.filter((project) => project !== null);
+	projects.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
 
 	return projects;
 }

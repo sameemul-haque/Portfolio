@@ -106,6 +106,7 @@ export interface GitHubRepo {
 export type GitHubRepos = Array<GitHubRepo>;
 
 export interface Project {
+	created_at: string | number | Date;
 	description: string;
 	homepage?: string;
 	icon?: string;
