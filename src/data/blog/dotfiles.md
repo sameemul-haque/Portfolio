@@ -89,7 +89,7 @@ config checkout dark
 
 These configuration files are available [`here`](https://github.com/sameemul-haque/dotfiles/tree/mocha).
 
-![preview1](https://github.com/sameemul-haque/dotfiles/assets/110324374/0250fcdc-dd46-4e53-9855-6630b02950fe)
+![preview1](https://github.com/sameemul-haque/dotfiles/assets/110324374/2212607f-9b29-4e76-bac0-4bdc0ac06bbb)
 ![preview2](https://github.com/sameemul-haque/dotfiles/assets/110324374/86560ae3-5113-46f2-823b-60e334c67b14)
 ![preview3](https://github.com/sameemul-haque/dotfiles/assets/110324374/4f7f18aa-4337-4f68-871b-42c3986c0379)
 ![preview4](https://github.com/sameemul-haque/dotfiles/assets/110324374/6614f84c-2bbe-42eb-83b4-a47d263fc9a3)
