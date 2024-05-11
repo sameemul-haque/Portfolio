@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 	});
 
 	return (
-		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
+		<ThemeProvider attribute="class" defaultTheme={Theme.DARK} themes={Object.values(Theme)}>
 			<Analytics />
 			<Component {...pageProps} />
 			<style jsx global>{`
