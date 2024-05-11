@@ -33,7 +33,7 @@ export function Item({
 				(typeof previewurl === 'string' ? (
 					<div
 						className={clsx(
-							'flex flex-col m-0.5 text-center  bg-gray-100 dark:bg-gray-800',
+							'flex flex-col m-0.5 text-center  bg-gray-100 dark:bg-gray-800 rounded-t-lg',
 						)}>
 						<Image
 							src={previewurl}
