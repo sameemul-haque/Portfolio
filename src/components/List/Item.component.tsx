@@ -39,8 +39,9 @@ export function Item({
 							src={previewurl}
 							width={775}
 							height={436}
-							className="rounded-t-lg"
+							className="cursor-pointer rounded-t-lg"
 							alt={title}
+							onClick={() => window.open("https://github.com/sameemul-haque/" + title)}
 						/>
 					</div>
 				) : (

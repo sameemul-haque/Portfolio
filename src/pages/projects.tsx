@@ -33,8 +33,6 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 						{projects.map((project, index) => {
 							return (
 								<div
-									className="cursor-pointer"
-									onClick={() => window.open(project.url)}
 									key={index}>
 									<Animate
 										animation={{ y: [50, 0], opacity: [0, 1] }}
@@ -46,24 +44,24 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 											actions={[
 												...(project.post
 													? [
-															{
-																type: ListActionType.LINK,
-																external: false,
-																href: project.post,
-																icon: 'feather:edit-3',
-																label: `Blog post about ${project.name}`,
-															} as ListAction,
-													  ]
+														{
+															type: ListActionType.LINK,
+															external: false,
+															href: project.post,
+															icon: 'feather:edit-3',
+															label: `Blog post about ${project.name}`,
+														} as ListAction,
+													]
 													: []),
 												...(project.homepage
 													? [
-															{
-																type: ListActionType.LINK,
-																href: project.homepage,
-																icon: 'feather:link',
-																label: `${project.name} homepage`,
-															} as ListAction,
-													  ]
+														{
+															type: ListActionType.LINK,
+															href: project.homepage,
+															icon: 'feather:link',
+															label: `${project.name} homepage`,
+														} as ListAction,
+													]
 													: []),
 												{
 													type: ListActionType.LINK,
