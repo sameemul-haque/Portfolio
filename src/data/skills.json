@@ -21,6 +21,13 @@
 		}
 	},
 	{
+		"title": "Python",
+		"icon": "devicon:python",
+		"link": {
+			"url": "https://python.org/"
+		}
+	},
+	{
 		"title": "Node.js",
 		"icon": "devicon:nodejs",
 		"link": {
@@ -42,10 +49,10 @@
 		}
 	},
 	{
-		"title": "Bootstrap",
-		"icon": "devicon:bootstrap",
+		"title": "Tailwind CSS",
+		"icon": "devicon:tailwindcss",
 		"link": {
-			"url": "https://getbootstrap.com/"
+			"url": "https://tailwindcss.com/docs"
 		}
 	},
 	{
@@ -60,13 +67,6 @@
 		"icon": "devicon:mysql",
 		"link": {
 			"url": "https://www.mysql.com/"
-		}
-	},
-	{
-		"title": "Python",
-		"icon": "devicon:python",
-		"link": {
-			"url": "https://python.org/"
 		}
 	},
 	{

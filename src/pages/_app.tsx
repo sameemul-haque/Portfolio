@@ -20,7 +20,7 @@ NProgress.configure({
 	speed: 800,
 });
 
-export { reportWebVitals } from 'next-axiom';
+export { useReportWebVitals } from 'next-axiom';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
 	const router = useRouter();

@@ -13,10 +13,10 @@ export function XFigure({ alt, caption, src }: XFigureProps): JSX.Element {
 				alt={alt ?? caption}
 				className="rounded-3xl object-cover select-none hover:shadow-xl"
 				draggable={false}
-				height="100%"
+				height={0}
 				layout="responsive"
 				src={src}
-				width="100%"
+				width={0}
 			/>
 			<figcaption>{alt ?? caption}</figcaption>
 		</figure>

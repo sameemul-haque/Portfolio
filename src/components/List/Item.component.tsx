@@ -37,8 +37,10 @@ export function Item({
 						)}>
 						<Image
 							src={previewurl}
-							width={775}
-							height={436}
+							width={0}
+							height={0}
+							sizes="100vw"
+							style={{ width: '100%', height: 'auto' }}
 							className="cursor-pointer rounded-t-lg"
 							alt={title}
 							onClick={() => window.open("https://github.com/sameemul-haque/" + title)}

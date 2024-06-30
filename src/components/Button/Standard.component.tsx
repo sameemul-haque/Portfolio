@@ -38,13 +38,17 @@ export function Standard({ children, className, icon, ...rest }: StandardProps):
 				);
 
 			return (
-				<Link href={rest.href} passHref>
-					<a {...rest} className={clsx(ButtonStyles, className)} href={rest.href}>
-						{icon && <Icon className="mr-2" icon={icon} />}
-						{children}
-					</a>
-				</Link>
-			);
+                (<Link
+                    href={rest.href}
+                    passHref
+                    {...rest}
+                    className={clsx(ButtonStyles, className)}>
+
+                    {icon && <Icon className="mr-2" icon={icon} />}
+                    {children}
+
+                </Link>)
+            );
 
 		case NavigationItemType.ACTION:
 			return (
