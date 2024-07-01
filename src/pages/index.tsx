@@ -57,7 +57,7 @@ export default function HomePage(): JSX.Element {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a BTech IT graduate.`;
+	const description = `I am a Software Engineer.`;
 
 	return (
 		<>
@@ -72,7 +72,7 @@ export default function HomePage(): JSX.Element {
 								opacity: [0, 1],
 								scale: [0.75, 1],
 							}}
-							className="text-gray-800 dark:text-white text-2xl sm:text-3xl md:text-5xl lg:text-7xl tracking-tight font-extrabold  backdrop-filter backdrop-blur-sm saturate-200 ">
+							className="text-gray-800 dark:text-white text-2xl sm:text-3xl md:text-5xl lg:text-7xl tracking-tight font-extrabold  ">
 							Hey <span className="inline-block origin-70 animate-wave">👋</span> I&apos;m
 							<br />
 							Sameemul Haque
@@ -85,7 +85,7 @@ export default function HomePage(): JSX.Element {
 								opacity: [0, 1],
 								scale: [0.75, 1],
 							}}
-							className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 sm:text-lg md:text-xl md:max-w-3xl backdrop-filter backdrop-blur-sm saturate-200"
+							className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-400 sm:text-lg md:text-xl md:max-w-3xl"
 							transition={{
 								delay: 0.5,
 							}}>
