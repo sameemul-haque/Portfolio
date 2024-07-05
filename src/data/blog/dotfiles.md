@@ -9,7 +9,7 @@ date: '2023-08-08'
 
 My dotfiles are available at my [`github`](https://github.com/sameemul-haque/dotfiles/).
 
-## :thinking_face: What is a dotfile?
+## :thinking: What is a dotfile?
 
 ---
 

@@ -7,7 +7,7 @@ description: Reflecting on completing the Hacktoberfest 2023 challenges and unlo
 date: '2023-11-01'
 ---
 
-## :thinking_face: What is Hacktoberfest?
+## :thinking: What is Hacktoberfest?
 
 [Hacktoberfest](https://hacktoberfest.com/about/) is an annual celebration hosted by DigitalOcean, encouraging individuals worldwide to contribute to open source throughout October. It serves as a platform for people from various backgrounds, whether coding or non-coding, to come together and support the projects that drive modern technology.
 
