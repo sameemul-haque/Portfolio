@@ -6,6 +6,9 @@
 	"public": true,
 	"regions": ["bom1"],
 	"redirects": [
+		{ "source": "/blog", "destination": "https://sameem.dev/blog/", "permanent": true },
+		{ "source": "/blog/hacktoberfest_2023", "destination": "https://sameem.dev/blog/hacktoberfest-2023/", "permanent": true },
+		{ "source": "/blog/:slug", "destination": "https://sameem.dev/blog/:slug/", "permanent": true },
 		{ "source": "/cv", "destination": "https://drive.google.com/file/d/1_xn33U0VfmW2oD9iyBH1ki12SqkJ8Avr/" },
 		{ "source": "/github", "destination": "https://github.com/sameemul-haque" },
 		{ "source": "/linkedin", "destination": "https://www.linkedin.com/in/sameemul-haque" },
