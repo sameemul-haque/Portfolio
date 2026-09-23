@@ -5,6 +5,9 @@
 	"description": "Personal Website for sameemul-haque",
 	"repository": "https://github.com/sameemul-haque/portfolio.git",
 	"license": "MIT",
+	"engines": {
+		"node": "24.x"
+	},
 	"prettier": {
 		"arrowParens": "always",
 		"bracketSpacing": true,
@@ -44,7 +47,7 @@
 		"motion": "^10.18.0",
 		"next": "^14.2.4",
 		"next-axiom": "^1.3.0",
-		"next-mdx-remote": "^5.0.0",
+		"next-mdx-remote": "^6.0.0",
 		"next-seo": "^6.5.0",
 		"next-themes": "^0.3.0",
 		"nprogress": "^0.2.0",
